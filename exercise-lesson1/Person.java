@@ -1,15 +1,15 @@
-public class Person{
-    private String navn;
+public class Person {
+    private String name;
 
-    public void Person(String navn){
-        this.navn = navn;
+    public void Person(String name) {
+        this.name = name;
     }
 
-    public String showName(){
-        return navn;
+    public String showName() {
+        return name;
     }
 
-    public void setName(String navn){
-        this.navn = navn;
+    public void setName(String name) {
+        this.name = name;
     }
 }
